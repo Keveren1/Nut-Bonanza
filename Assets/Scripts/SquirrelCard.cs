@@ -23,7 +23,7 @@ public class SquirrelCard : MonoBehaviour, IDragHandler, IPointerDownHandler, IP
     {
         objectDragInstance = Instantiate(object_Drag, canvas.transform);
         objectDragInstance.transform.position = Input.mousePosition;
-        objectDragInstance.GetComponent<ObjectDragging>().card = this.gameObject;
+        objectDragInstance.GetComponent<ObjectDragging>().card = this;
 
         gameManager.draggingObject = objectDragInstance;
     }
@@ -33,6 +33,5 @@ public class SquirrelCard : MonoBehaviour, IDragHandler, IPointerDownHandler, IP
         gameManager.PlaceObject();
         gameManager.draggingObject = null;
         Destroy(objectDragInstance);
-
     }
 }

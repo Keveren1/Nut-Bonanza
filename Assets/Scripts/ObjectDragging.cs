@@ -2,5 +2,5 @@ using UnityEngine;
 
 public class ObjectDragging : MonoBehaviour
 {
-    public GameObject card;
+   public SquirrelCard card;
 }
