@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Idle Animation
+  m_Name: Squirrel Idle
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -19,21 +19,21 @@ AnimationClip:
   m_FloatCurves: []
   m_PPtrCurves:
   - curve:
-    - time: 0.016666668
+    - time: 0
       value: {fileID: -788937204, guid: 4cf416d75c6a1174fa079e37a3874791, type: 3}
-    - time: 0.033333335
-      value: {fileID: -1095935406, guid: 4cf416d75c6a1174fa079e37a3874791, type: 3}
-    - time: 0.05
-      value: {fileID: 805641507, guid: 4cf416d75c6a1174fa079e37a3874791, type: 3}
     - time: 0.06666667
+      value: {fileID: -1095935406, guid: 4cf416d75c6a1174fa079e37a3874791, type: 3}
+    - time: 0.15
+      value: {fileID: 805641507, guid: 4cf416d75c6a1174fa079e37a3874791, type: 3}
+    - time: 0.21666667
       value: {fileID: 2048724928, guid: 4cf416d75c6a1174fa079e37a3874791, type: 3}
-    - time: 0.083333336
+    - time: 0.28333333
       value: {fileID: 1337865422, guid: 4cf416d75c6a1174fa079e37a3874791, type: 3}
-    - time: 0.1
+    - time: 0.35
       value: {fileID: 1820052422, guid: 4cf416d75c6a1174fa079e37a3874791, type: 3}
-    - time: 0.11666667
+    - time: 0.43333334
       value: {fileID: -722856390, guid: 4cf416d75c6a1174fa079e37a3874791, type: 3}
-    - time: 0.13333334
+    - time: 0.5
       value: {fileID: -1845039176, guid: 4cf416d75c6a1174fa079e37a3874791, type: 3}
     attribute: m_Sprite
     path: 
@@ -67,7 +67,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.15
+    m_StopTime: 0.51666665
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
