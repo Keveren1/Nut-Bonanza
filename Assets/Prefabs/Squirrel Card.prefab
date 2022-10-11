@@ -102,7 +102,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 85.33323, y: 90.56386}
+  m_Size: {x: 85, y: 90}
   m_EdgeRadius: 0
 --- !u!114 &6348207352784991345
 MonoBehaviour:
@@ -118,3 +118,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   object_Drag: {fileID: 6676081790081617799, guid: a70aa43b897c3834ea4a17c97c1a1fd4, type: 3}
   object_Game: {fileID: 6676081790081617799, guid: fb97ce19711c3f145a93ef1f44360786, type: 3}
+  canvas: {fileID: 0}
