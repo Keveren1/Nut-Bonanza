@@ -8,7 +8,7 @@ AnimationClip:
   m_PrefabAsset: {fileID: 0}
   m_Name: Idle Animation
   serializedVersion: 6
-  m_Legacy: 0
+  m_Legacy: 1
   m_Compressed: 0
   m_UseHighQualityCurve: 1
   m_RotationCurves: []
@@ -19,6 +19,8 @@ AnimationClip:
   m_FloatCurves: []
   m_PPtrCurves:
   - curve:
+    - time: 0
+      value: {fileID: -788937204, guid: 4cf416d75c6a1174fa079e37a3874791, type: 3}
     - time: 0.016666668
       value: {fileID: -788937204, guid: 4cf416d75c6a1174fa079e37a3874791, type: 3}
     - time: 0.033333335
@@ -45,23 +47,8 @@ AnimationClip:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
   m_ClipBindingConstant:
-    genericBindings:
-    - serializedVersion: 2
-      path: 0
-      attribute: 0
-      script: {fileID: 0}
-      typeID: 212
-      customType: 23
-      isPPtrCurve: 1
-    pptrCurveMapping:
-    - {fileID: -788937204, guid: 4cf416d75c6a1174fa079e37a3874791, type: 3}
-    - {fileID: -1095935406, guid: 4cf416d75c6a1174fa079e37a3874791, type: 3}
-    - {fileID: 805641507, guid: 4cf416d75c6a1174fa079e37a3874791, type: 3}
-    - {fileID: 2048724928, guid: 4cf416d75c6a1174fa079e37a3874791, type: 3}
-    - {fileID: 1337865422, guid: 4cf416d75c6a1174fa079e37a3874791, type: 3}
-    - {fileID: 1820052422, guid: 4cf416d75c6a1174fa079e37a3874791, type: 3}
-    - {fileID: -722856390, guid: 4cf416d75c6a1174fa079e37a3874791, type: 3}
-    - {fileID: -1845039176, guid: 4cf416d75c6a1174fa079e37a3874791, type: 3}
+    genericBindings: []
+    pptrCurveMapping: []
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
