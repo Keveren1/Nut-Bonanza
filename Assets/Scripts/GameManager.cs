@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
         if (draggingObject != null && currentContainer != null)
         {
             GameObject objectGame = Instantiate(draggingObject.GetComponent<ObjectDragging>().card.object_Game, currentContainer.transform);
-            objectGame.GetComponent<SquirrelController>().enemies = currentContainer.GetComponent<ObjectContainer>().spawnPoint.enemies;
+            //objectGame.GetComponent<SquirrelController>().enemies = currentContainer.GetComponent<ObjectContainer>().spawnPoint.enemies;
             currentContainer.GetComponent<ObjectContainer>().isFull = true;
         }
     }
