@@ -5,11 +5,11 @@ using UnityEngine.UI;
 
 public class ObjectContainer : MonoBehaviour
 {
+
     public bool isFull;
     public GameManager gameManager;
     public Image backgroundImage;
     public SpawnPoint spawnPoint;
-
     private void Start()
     {
         gameManager = GameManager.instance;
@@ -17,7 +17,7 @@ public class ObjectContainer : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-         if (gameManager.draggingObject != null && isFull == false)
+        if(gameManager.draggingObject != null && isFull == false)
         {
             gameManager.currentContainer = this.gameObject;
             backgroundImage.enabled = true;
@@ -29,4 +29,5 @@ public class ObjectContainer : MonoBehaviour
         gameManager.currentContainer = null;
         backgroundImage.enabled = false;
     }
+
 }
