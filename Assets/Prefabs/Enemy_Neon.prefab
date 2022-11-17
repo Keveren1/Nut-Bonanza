@@ -51,7 +51,7 @@ MonoBehaviour:
   Health: 1200
   DamageValue: 1
   DamageCooldwon: 1
-  movementSpeed: 0.1
+  movementSpeed: 0.2
 --- !u!50 &414264502226117816
 Rigidbody2D:
   serializedVersion: 4

@@ -2113,8 +2113,9 @@ RectTransform:
   - {fileID: 2012395322}
   - {fileID: 619958542}
   - {fileID: 608573675}
+  - {fileID: 1980927306}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2305,11 +2306,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -19.93765, y: -44.99147, z: -1.8125136}
+  m_LocalScale: {x: 0.16477397, y: 0.12854706, z: 0.18125136}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1980927306}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &519420033
@@ -2623,7 +2624,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &577076454
 PrefabInstance:
@@ -2896,8 +2897,43 @@ MonoBehaviour:
     Spawner: 4
     RandomSpawn: 1
     isSpawned: 0
-  - spawnTime: 5
+  - spawnTime: 30
     enemyType: 2
+    Spawner: 0
+    RandomSpawn: 1
+    isSpawned: 0
+  - spawnTime: 5
+    enemyType: 0
+    Spawner: 0
+    RandomSpawn: 1
+    isSpawned: 0
+  - spawnTime: 10
+    enemyType: 1
+    Spawner: 0
+    RandomSpawn: 1
+    isSpawned: 0
+  - spawnTime: 12
+    enemyType: 0
+    Spawner: 0
+    RandomSpawn: 1
+    isSpawned: 0
+  - spawnTime: 15
+    enemyType: 0
+    Spawner: 0
+    RandomSpawn: 1
+    isSpawned: 0
+  - spawnTime: 20
+    enemyType: 0
+    Spawner: 0
+    RandomSpawn: 1
+    isSpawned: 0
+  - spawnTime: 22
+    enemyType: 0
+    Spawner: 0
+    RandomSpawn: 1
+    isSpawned: 0
+  - spawnTime: 25
+    enemyType: 0
     Spawner: 0
     RandomSpawn: 1
     isSpawned: 0
@@ -5064,7 +5100,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1696666387
 MonoBehaviour:
@@ -5189,7 +5225,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &1761726772 stripped
 RectTransform:
@@ -5655,6 +5691,125 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6172213411000136734, guid: d7b4a148ff4b1244d860de2036d0d165, type: 3}
   m_PrefabInstance: {fileID: 192804077}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1980927305
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1980927306}
+  - component: {fileID: 1980927310}
+  - component: {fileID: 1980927309}
+  - component: {fileID: 1980927308}
+  - component: {fileID: 1980927307}
+  m_Layer: 11
+  m_Name: Tree
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1980927306
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980927305}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 6.06892, y: 7.779252, z: 5.5172}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 519420032}
+  m_Father: {fileID: 489325620}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -839, y: -190}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1980927307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980927305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef35565405a74bc4d9719bbdcc4e5fa0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 1
+  DamageValue: 0
+--- !u!61 &1980927308
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980927305}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 75, y: 150}
+  m_EdgeRadius: 0
+--- !u!114 &1980927309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980927305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 56b86c780c365614e8070b3139d5db3b, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1980927310
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980927305}
+  m_CullTransparentMesh: 1
 --- !u!224 &2008646940 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6172213411000136734, guid: d7b4a148ff4b1244d860de2036d0d165, type: 3}

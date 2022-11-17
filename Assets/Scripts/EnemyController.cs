@@ -20,7 +20,7 @@ public class EnemyController : MonoBehaviour
     }
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.layer == 8)
+        if(collision.gameObject.layer == 8 )
         {
             StartCoroutine(Attack(collision));
             isStopped = true;
@@ -35,6 +35,20 @@ public class EnemyController : MonoBehaviour
         else
         {
             collision.gameObject.GetComponent<SquirrelController>().ReceiveDamage(DamageValue);
+            yield return new WaitForSeconds(DamageCooldwon);
+            StartCoroutine(Attack(collision));
+        }
+    }
+
+    IEnumerator Attack2(Collider2D collision)
+    {
+        if (collision == null)
+        {
+            isStopped = false;
+        }
+        else
+        {
+            collision.gameObject.GetComponent<Tree>().ReceiveDamage(DamageValue);
             yield return new WaitForSeconds(DamageCooldwon);
             StartCoroutine(Attack(collision));
         }
