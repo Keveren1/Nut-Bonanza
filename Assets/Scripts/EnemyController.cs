@@ -60,6 +60,7 @@ public class EnemyController : MonoBehaviour
         {
             transform.parent.GetComponent<SpawnPoint>().enemies.Remove(this.gameObject);
             Destroy(this.gameObject);
+            
         }
         else
         {

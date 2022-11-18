@@ -2897,7 +2897,7 @@ MonoBehaviour:
     Spawner: 4
     RandomSpawn: 1
     isSpawned: 0
-  - spawnTime: 30
+  - spawnTime: 60
     enemyType: 2
     Spawner: 0
     RandomSpawn: 1
@@ -2912,17 +2912,17 @@ MonoBehaviour:
     Spawner: 0
     RandomSpawn: 1
     isSpawned: 0
-  - spawnTime: 12
-    enemyType: 0
-    Spawner: 0
-    RandomSpawn: 1
-    isSpawned: 0
-  - spawnTime: 15
-    enemyType: 0
-    Spawner: 0
-    RandomSpawn: 1
-    isSpawned: 0
   - spawnTime: 20
+    enemyType: 0
+    Spawner: 0
+    RandomSpawn: 1
+    isSpawned: 0
+  - spawnTime: 25
+    enemyType: 0
+    Spawner: 0
+    RandomSpawn: 1
+    isSpawned: 0
+  - spawnTime: 40
     enemyType: 0
     Spawner: 0
     RandomSpawn: 1
@@ -2932,7 +2932,7 @@ MonoBehaviour:
     Spawner: 0
     RandomSpawn: 1
     isSpawned: 0
-  - spawnTime: 25
+  - spawnTime: 45
     enemyType: 0
     Spawner: 0
     RandomSpawn: 1

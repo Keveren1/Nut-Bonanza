@@ -46,10 +46,7 @@ public class Tree : MonoBehaviour
             transform.parent.GetComponent<SpawnPoint>().enemies.Remove(this.gameObject);
             Destroy(this.gameObject);
         }
-        else
-        {
-            Health = Health - Damage;
-        }
+       
     }
 
     
